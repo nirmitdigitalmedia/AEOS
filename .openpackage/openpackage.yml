@@ -1,0 +1,5 @@
+name: n8n-agent
+dependencies:
+- name: gh@czlonkowski/n8n-skills
+  url: https://github.com/czlonkowski/n8n-skills.git
+dev-dependencies: []

@@ -1,0 +1,354 @@
+# This file is managed by OpenPackage. Do not edit manually.
+
+packages:
+  gh@czlonkowski/n8n-skills:
+    files:
+      mcp.json:
+        - hash: 8d6c6b39ed75124c
+          keys:
+            - $schema
+            - mcp.n8n-mcp.type
+            - mcp.n8n-mcp.url
+          merge: deep
+          sourceHash: 5560a01756020d4b
+          target: .opencode/opencode.json
+      skills/n8n-agents/CHAT_AGENT_PATTERNS.md:
+        - hash: 6c43dc9a4bf3b696
+          sourceHash: 6c43dc9a4bf3b696
+          target: .opencode/skills/n8n-agents/CHAT_AGENT_PATTERNS.md
+      skills/n8n-agents/EXAMPLES.md:
+        - hash: 97b5f470b07b991a
+          sourceHash: 97b5f470b07b991a
+          target: .opencode/skills/n8n-agents/EXAMPLES.md
+      skills/n8n-agents/HUMAN_REVIEW.md:
+        - hash: 7e68212774d5df4f
+          sourceHash: 7e68212774d5df4f
+          target: .opencode/skills/n8n-agents/HUMAN_REVIEW.md
+      skills/n8n-agents/MEMORY.md:
+        - hash: 43ab90853be4213c
+          sourceHash: 43ab90853be4213c
+          target: .opencode/skills/n8n-agents/MEMORY.md
+      skills/n8n-agents/RAG.md:
+        - hash: 3b7b700b085c4dbf
+          sourceHash: 3b7b700b085c4dbf
+          target: .opencode/skills/n8n-agents/RAG.md
+      skills/n8n-agents/README.md:
+        - hash: 150d6603ff3ff8e7
+          sourceHash: 150d6603ff3ff8e7
+          target: .opencode/skills/n8n-agents/README.md
+      skills/n8n-agents/SKILL.md:
+        - hash: c75311b950573574
+          sourceHash: c75311b950573574
+          target: .opencode/skills/n8n-agents/SKILL.md
+      skills/n8n-agents/STRUCTURED_OUTPUT.md:
+        - hash: c708cec794e1d0ef
+          sourceHash: c708cec794e1d0ef
+          target: .opencode/skills/n8n-agents/STRUCTURED_OUTPUT.md
+      skills/n8n-agents/SUBWORKFLOW_AS_TOOL.md:
+        - hash: 84871bb278dd62d6
+          sourceHash: 84871bb278dd62d6
+          target: .opencode/skills/n8n-agents/SUBWORKFLOW_AS_TOOL.md
+      skills/n8n-agents/SYSTEM_PROMPT.md:
+        - hash: 8500b148f4b729db
+          sourceHash: 8500b148f4b729db
+          target: .opencode/skills/n8n-agents/SYSTEM_PROMPT.md
+      skills/n8n-agents/TOOLS.md:
+        - hash: 6c6d0f3668b6acc5
+          sourceHash: 6c6d0f3668b6acc5
+          target: .opencode/skills/n8n-agents/TOOLS.md
+      skills/n8n-binary-and-data/AGENT_TOOL_BINARY.md:
+        - hash: 0fb00f73da4e6df3
+          sourceHash: 0fb00f73da4e6df3
+          target: .opencode/skills/n8n-binary-and-data/AGENT_TOOL_BINARY.md
+      skills/n8n-binary-and-data/BINARY_BASICS.md:
+        - hash: 7d40aeecfc6b7720
+          sourceHash: 7d40aeecfc6b7720
+          target: .opencode/skills/n8n-binary-and-data/BINARY_BASICS.md
+      skills/n8n-binary-and-data/CDN_REQUIREMENT.md:
+        - hash: 0b95f26c4151831e
+          sourceHash: 0b95f26c4151831e
+          target: .opencode/skills/n8n-binary-and-data/CDN_REQUIREMENT.md
+      skills/n8n-binary-and-data/MERGE_FOR_CONTEXT.md:
+        - hash: f4e980d4a0cd15cf
+          sourceHash: f4e980d4a0cd15cf
+          target: .opencode/skills/n8n-binary-and-data/MERGE_FOR_CONTEXT.md
+      skills/n8n-binary-and-data/README.md:
+        - hash: 2fa90b32f1c53994
+          sourceHash: 2fa90b32f1c53994
+          target: .opencode/skills/n8n-binary-and-data/README.md
+      skills/n8n-binary-and-data/SKILL.md:
+        - hash: 83ea87c880c68ccd
+          sourceHash: 83ea87c880c68ccd
+          target: .opencode/skills/n8n-binary-and-data/SKILL.md
+      skills/n8n-code-javascript/BUILTIN_FUNCTIONS.md:
+        - hash: f7af2a4fca7227c5
+          sourceHash: f7af2a4fca7227c5
+          target: .opencode/skills/n8n-code-javascript/BUILTIN_FUNCTIONS.md
+      skills/n8n-code-javascript/COMMON_PATTERNS.md:
+        - hash: d9307f6b880441ff
+          sourceHash: d9307f6b880441ff
+          target: .opencode/skills/n8n-code-javascript/COMMON_PATTERNS.md
+      skills/n8n-code-javascript/DATA_ACCESS.md:
+        - hash: 694540fe7e89a7ae
+          sourceHash: 694540fe7e89a7ae
+          target: .opencode/skills/n8n-code-javascript/DATA_ACCESS.md
+      skills/n8n-code-javascript/ERROR_PATTERNS.md:
+        - hash: 23c6b56ffa16c37a
+          sourceHash: 23c6b56ffa16c37a
+          target: .opencode/skills/n8n-code-javascript/ERROR_PATTERNS.md
+      skills/n8n-code-javascript/README.md:
+        - hash: e377fb8536d17b57
+          sourceHash: e377fb8536d17b57
+          target: .opencode/skills/n8n-code-javascript/README.md
+      skills/n8n-code-javascript/SKILL.md:
+        - hash: a272d2c665d68e19
+          sourceHash: a272d2c665d68e19
+          target: .opencode/skills/n8n-code-javascript/SKILL.md
+      skills/n8n-code-python/COMMON_PATTERNS.md:
+        - hash: 3d36daade9bd59f8
+          sourceHash: 3d36daade9bd59f8
+          target: .opencode/skills/n8n-code-python/COMMON_PATTERNS.md
+      skills/n8n-code-python/DATA_ACCESS.md:
+        - hash: 2bc7facaf08a8f0b
+          sourceHash: 2bc7facaf08a8f0b
+          target: .opencode/skills/n8n-code-python/DATA_ACCESS.md
+      skills/n8n-code-python/ERROR_PATTERNS.md:
+        - hash: aa5b83eca9756d1f
+          sourceHash: aa5b83eca9756d1f
+          target: .opencode/skills/n8n-code-python/ERROR_PATTERNS.md
+      skills/n8n-code-python/README.md:
+        - hash: 73b2312da1ecc39e
+          sourceHash: 73b2312da1ecc39e
+          target: .opencode/skills/n8n-code-python/README.md
+      skills/n8n-code-python/SKILL.md:
+        - hash: feab3d078c03a925
+          sourceHash: feab3d078c03a925
+          target: .opencode/skills/n8n-code-python/SKILL.md
+      skills/n8n-code-python/STANDARD_LIBRARY.md:
+        - hash: dc6c3800bacea257
+          sourceHash: dc6c3800bacea257
+          target: .opencode/skills/n8n-code-python/STANDARD_LIBRARY.md
+      skills/n8n-code-tool/ERROR_PATTERNS.md:
+        - hash: a33f949049873b0c
+          sourceHash: a33f949049873b0c
+          target: .opencode/skills/n8n-code-tool/ERROR_PATTERNS.md
+      skills/n8n-code-tool/INPUT_SCHEMA.md:
+        - hash: e5507b036190f5a3
+          sourceHash: e5507b036190f5a3
+          target: .opencode/skills/n8n-code-tool/INPUT_SCHEMA.md
+      skills/n8n-code-tool/README.md:
+        - hash: b3155e4c957907f5
+          sourceHash: b3155e4c957907f5
+          target: .opencode/skills/n8n-code-tool/README.md
+      skills/n8n-code-tool/SKILL.md:
+        - hash: a20a3ed4e724e0e9
+          sourceHash: a20a3ed4e724e0e9
+          target: .opencode/skills/n8n-code-tool/SKILL.md
+      skills/n8n-error-handling/API_WORKFLOWS.md:
+        - hash: dfa788cc30701a43
+          sourceHash: dfa788cc30701a43
+          target: .opencode/skills/n8n-error-handling/API_WORKFLOWS.md
+      skills/n8n-error-handling/ERROR_WORKFLOWS.md:
+        - hash: 54bf70d10947db6e
+          sourceHash: 54bf70d10947db6e
+          target: .opencode/skills/n8n-error-handling/ERROR_WORKFLOWS.md
+      skills/n8n-error-handling/NODE_ERROR_OUTPUTS.md:
+        - hash: 1079a1c2f4f09a2b
+          sourceHash: 1079a1c2f4f09a2b
+          target: .opencode/skills/n8n-error-handling/NODE_ERROR_OUTPUTS.md
+      skills/n8n-error-handling/README.md:
+        - hash: b5ed9cf7f2bb91b1
+          sourceHash: b5ed9cf7f2bb91b1
+          target: .opencode/skills/n8n-error-handling/README.md
+      skills/n8n-error-handling/RESPONSE_SHAPES.md:
+        - hash: 9cb2012c6f5e5892
+          sourceHash: 9cb2012c6f5e5892
+          target: .opencode/skills/n8n-error-handling/RESPONSE_SHAPES.md
+      skills/n8n-error-handling/SKILL.md:
+        - hash: 314892af83302b27
+          sourceHash: 314892af83302b27
+          target: .opencode/skills/n8n-error-handling/SKILL.md
+      skills/n8n-expression-syntax/COMMON_MISTAKES.md:
+        - hash: 6299a04359557e1e
+          sourceHash: 6299a04359557e1e
+          target: .opencode/skills/n8n-expression-syntax/COMMON_MISTAKES.md
+      skills/n8n-expression-syntax/EXAMPLES.md:
+        - hash: c3d1eccf3b4813d2
+          sourceHash: c3d1eccf3b4813d2
+          target: .opencode/skills/n8n-expression-syntax/EXAMPLES.md
+      skills/n8n-expression-syntax/README.md:
+        - hash: 11e4c003b6b3ddc7
+          sourceHash: 11e4c003b6b3ddc7
+          target: .opencode/skills/n8n-expression-syntax/README.md
+      skills/n8n-expression-syntax/SKILL.md:
+        - hash: d99ba69473a5e42a
+          sourceHash: d99ba69473a5e42a
+          target: .opencode/skills/n8n-expression-syntax/SKILL.md
+      skills/n8n-mcp-tools-expert/OPERATIONS_GUIDE.md:
+        - hash: 2fd07aaebcf32142
+          sourceHash: 2fd07aaebcf32142
+          target: .opencode/skills/n8n-mcp-tools-expert/OPERATIONS_GUIDE.md
+      skills/n8n-mcp-tools-expert/README.md:
+        - hash: 8c9b09f7d4406ebd
+          sourceHash: 8c9b09f7d4406ebd
+          target: .opencode/skills/n8n-mcp-tools-expert/README.md
+      skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md:
+        - hash: 694a9b28a8eb9ddb
+          sourceHash: 694a9b28a8eb9ddb
+          target: .opencode/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md
+      skills/n8n-mcp-tools-expert/SKILL.md:
+        - hash: c16d2009ee3d12e1
+          sourceHash: c16d2009ee3d12e1
+          target: .opencode/skills/n8n-mcp-tools-expert/SKILL.md
+      skills/n8n-mcp-tools-expert/VALIDATION_GUIDE.md:
+        - hash: 983008fbd8699e67
+          sourceHash: 983008fbd8699e67
+          target: .opencode/skills/n8n-mcp-tools-expert/VALIDATION_GUIDE.md
+      skills/n8n-mcp-tools-expert/WORKFLOW_GUIDE.md:
+        - hash: 3f405c28d67cf5c4
+          sourceHash: 3f405c28d67cf5c4
+          target: .opencode/skills/n8n-mcp-tools-expert/WORKFLOW_GUIDE.md
+      skills/n8n-multi-instance/README.md:
+        - hash: a6e4fade5aac6ed4
+          sourceHash: a6e4fade5aac6ed4
+          target: .opencode/skills/n8n-multi-instance/README.md
+      skills/n8n-multi-instance/SKILL.md:
+        - hash: 7d870d22ea079367
+          sourceHash: 7d870d22ea079367
+          target: .opencode/skills/n8n-multi-instance/SKILL.md
+      skills/n8n-node-configuration/DEPENDENCIES.md:
+        - hash: 687c56da4fc4b6a2
+          sourceHash: 687c56da4fc4b6a2
+          target: .opencode/skills/n8n-node-configuration/DEPENDENCIES.md
+      skills/n8n-node-configuration/NODE_FAMILY_GOTCHAS.md:
+        - hash: af939ef4d29006eb
+          sourceHash: af939ef4d29006eb
+          target: .opencode/skills/n8n-node-configuration/NODE_FAMILY_GOTCHAS.md
+      skills/n8n-node-configuration/OPERATION_PATTERNS.md:
+        - hash: a406430711147c72
+          sourceHash: a406430711147c72
+          target: .opencode/skills/n8n-node-configuration/OPERATION_PATTERNS.md
+      skills/n8n-node-configuration/README.md:
+        - hash: 9d3c7719b8aa200f
+          sourceHash: 9d3c7719b8aa200f
+          target: .opencode/skills/n8n-node-configuration/README.md
+      skills/n8n-node-configuration/SKILL.md:
+        - hash: b94d35620bb1f86e
+          sourceHash: b94d35620bb1f86e
+          target: .opencode/skills/n8n-node-configuration/SKILL.md
+      skills/n8n-self-hosting/DAY2.md:
+        - hash: 6c0d5bfec3753de0
+          sourceHash: 6c0d5bfec3753de0
+          target: .opencode/skills/n8n-self-hosting/DAY2.md
+      skills/n8n-self-hosting/QUEUE_MODE.md:
+        - hash: 57d02075191bdb6e
+          sourceHash: 57d02075191bdb6e
+          target: .opencode/skills/n8n-self-hosting/QUEUE_MODE.md
+      skills/n8n-self-hosting/README.md:
+        - hash: fb4d38aee339b4eb
+          sourceHash: fb4d38aee339b4eb
+          target: .opencode/skills/n8n-self-hosting/README.md
+      skills/n8n-self-hosting/SECURITY.md:
+        - hash: 0930d1846a7d945e
+          sourceHash: 0930d1846a7d945e
+          target: .opencode/skills/n8n-self-hosting/SECURITY.md
+      skills/n8n-self-hosting/SINGLE_MODE.md:
+        - hash: 4d8f37054f3adea3
+          sourceHash: 4d8f37054f3adea3
+          target: .opencode/skills/n8n-self-hosting/SINGLE_MODE.md
+      skills/n8n-self-hosting/SKILL.md:
+        - hash: 9115043db0c06815
+          sourceHash: 9115043db0c06815
+          target: .opencode/skills/n8n-self-hosting/SKILL.md
+      skills/n8n-self-hosting/assets/Caddyfile:
+        - hash: ad788f5d8c6cc387
+          sourceHash: ad788f5d8c6cc387
+          target: .opencode/skills/n8n-self-hosting/assets/Caddyfile
+      skills/n8n-self-hosting/assets/docker-compose.queue.yml:
+        - hash: f809a0e5fd0c5788
+          sourceHash: f809a0e5fd0c5788
+          target: .opencode/skills/n8n-self-hosting/assets/docker-compose.queue.yml
+      skills/n8n-self-hosting/assets/docker-compose.single.yml:
+        - hash: f5c3079f262310b3
+          sourceHash: f5c3079f262310b3
+          target: .opencode/skills/n8n-self-hosting/assets/docker-compose.single.yml
+      skills/n8n-self-hosting/assets/init-data.sh:
+        - hash: f437486621916a61
+          sourceHash: f437486621916a61
+          target: .opencode/skills/n8n-self-hosting/assets/init-data.sh
+      skills/n8n-subworkflows/NAMING_AND_DISCOVERY.md:
+        - hash: 319db74605b80892
+          sourceHash: 319db74605b80892
+          target: .opencode/skills/n8n-subworkflows/NAMING_AND_DISCOVERY.md
+      skills/n8n-subworkflows/README.md:
+        - hash: deafa6138004f546
+          sourceHash: deafa6138004f546
+          target: .opencode/skills/n8n-subworkflows/README.md
+      skills/n8n-subworkflows/SKILL.md:
+        - hash: 57dbf55a918048c3
+          sourceHash: 57dbf55a918048c3
+          target: .opencode/skills/n8n-subworkflows/SKILL.md
+      skills/n8n-subworkflows/SUBWORKFLOW_PATTERNS.md:
+        - hash: 1b76fdf92bc6b292
+          sourceHash: 1b76fdf92bc6b292
+          target: .opencode/skills/n8n-subworkflows/SUBWORKFLOW_PATTERNS.md
+      skills/n8n-validation-expert/ERROR_CATALOG.md:
+        - hash: 86734c060152774a
+          sourceHash: 86734c060152774a
+          target: .opencode/skills/n8n-validation-expert/ERROR_CATALOG.md
+      skills/n8n-validation-expert/FALSE_POSITIVES.md:
+        - hash: 2d37b8a11f802bd3
+          sourceHash: 2d37b8a11f802bd3
+          target: .opencode/skills/n8n-validation-expert/FALSE_POSITIVES.md
+      skills/n8n-validation-expert/README.md:
+        - hash: ef7c6620c9f203c2
+          sourceHash: ef7c6620c9f203c2
+          target: .opencode/skills/n8n-validation-expert/README.md
+      skills/n8n-validation-expert/REVIEW_CHECKLIST.md:
+        - hash: 5f799b3aef13622f
+          sourceHash: 5f799b3aef13622f
+          target: .opencode/skills/n8n-validation-expert/REVIEW_CHECKLIST.md
+      skills/n8n-validation-expert/SKILL.md:
+        - hash: 1e0c6b4e5660a9b4
+          sourceHash: 1e0c6b4e5660a9b4
+          target: .opencode/skills/n8n-validation-expert/SKILL.md
+      skills/n8n-workflow-patterns/README.md:
+        - hash: 2695eb008464ce1c
+          sourceHash: 2695eb008464ce1c
+          target: .opencode/skills/n8n-workflow-patterns/README.md
+      skills/n8n-workflow-patterns/SKILL.md:
+        - hash: 3244cc68b91d12fe
+          sourceHash: 3244cc68b91d12fe
+          target: .opencode/skills/n8n-workflow-patterns/SKILL.md
+      skills/n8n-workflow-patterns/ai_agent_workflow.md:
+        - hash: 62744ca3189a5fdc
+          sourceHash: 62744ca3189a5fdc
+          target: .opencode/skills/n8n-workflow-patterns/ai_agent_workflow.md
+      skills/n8n-workflow-patterns/database_operations.md:
+        - hash: 00f04f028bff7dbd
+          sourceHash: 00f04f028bff7dbd
+          target: .opencode/skills/n8n-workflow-patterns/database_operations.md
+      skills/n8n-workflow-patterns/http_api_integration.md:
+        - hash: 6e21ce68f5799a33
+          sourceHash: 6e21ce68f5799a33
+          target: .opencode/skills/n8n-workflow-patterns/http_api_integration.md
+      skills/n8n-workflow-patterns/scheduled_tasks.md:
+        - hash: 6e69e01eedf64ebf
+          sourceHash: 6e69e01eedf64ebf
+          target: .opencode/skills/n8n-workflow-patterns/scheduled_tasks.md
+      skills/n8n-workflow-patterns/webhook_processing.md:
+        - hash: 6d759578862bc935
+          sourceHash: 6d759578862bc935
+          target: .opencode/skills/n8n-workflow-patterns/webhook_processing.md
+      skills/using-n8n-mcp-skills/README.md:
+        - hash: 34c3c06b8b193e7e
+          sourceHash: 34c3c06b8b193e7e
+          target: .opencode/skills/using-n8n-mcp-skills/README.md
+      skills/using-n8n-mcp-skills/SKILL.md:
+        - hash: b9262c20dea74874
+          sourceHash: b9262c20dea74874
+          target: .opencode/skills/using-n8n-mcp-skills/SKILL.md
+    path: ~/.openpackage/cache/git/f5d19c9ab309/67dbc8f
+    platforms:
+      - opencode
+    version: 1.29.0
