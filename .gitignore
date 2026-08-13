@@ -1,0 +1,28 @@
+# OpenCode / OhMyOpenCode internal state (plans, sessions, continuation)
+.omo/
+
+# Dependencies
+node_modules/
+
+# Secrets & env — never commit real keys; keep *.example templates tracked
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.key
+*.pem
+*.p12
+
+# Logs & temp files
+*.log
+logs/
+*.tmp
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE local config
+.idea/
+.vscode/
